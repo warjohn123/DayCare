@@ -38,13 +38,22 @@
 		</div>
 
 		//Radio button
-		<div class="custom-control custom-radio custom-control-inline">
-		  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-		  <label class="custom-control-label" for="customRadioInline1">Toggle this custom radio</label>
+		<div class="input-group">
+		  <div class="input-group-prepend">
+		    <div class="input-group-text">
+		    <input type="radio" aria-label="Radio button for following text input">
+		    </div>
+		  </div>
 		</div>
-		<div class="custom-control custom-radio custom-control-inline">
-		  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-		  <label class="custom-control-label" for="customRadioInline2">Or toggle this other custom radio</label>
+
+		//Checkbox
+		<div class="input-group mb-3">
+		  <div class="input-group-prepend">
+		    <div class="input-group-text">
+		      <input type="checkbox" aria-label="Checkbox for following text input">
+		    </div>
+		  </div>
+		  <input type="text" class="form-control" aria-label="Text input with checkbox">
 		</div>
 
 		Select
@@ -54,6 +63,20 @@
 		  <option value="2">Two</option>
 		  <option value="3">Three</option>
 		</select>
+
+		Button
+		<button type="button" class="btn btn-outline-primary">Primary</button>
+
+		Cards
+		<div class="card" style="width: 18rem;">
+		  <div class="card-body">
+		    <h5 class="card-title">Card title</h5>
+		    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <a href="#" class="card-link">Card link</a>
+		    <a href="#" class="card-link">Another link</a>
+		  </div>
+		</div>
 	</div>
 
 </div>

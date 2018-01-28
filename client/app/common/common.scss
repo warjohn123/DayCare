@@ -74,3 +74,41 @@ body {
 .custom-select:focus {
 	border-color: #673AB8 !important;
 }
+
+.btn {
+	background: #fff !important;
+	color: #673AB8 !important;
+	border: 1px solid #aaa !important;
+}
+
+.btn:focus {
+	border-color: #673AB8 !important;
+	box-shadow: 0 0 0 0.1rem #673AB8 !important;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #673AB8;
+}
+
+input[type='checkbox']:after {
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #673AB8;
+}
